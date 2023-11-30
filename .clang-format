@@ -1,0 +1,7 @@
+---
+Language:        Cpp
+BasedOnStyle:  LLVM
+PointerAlignment: Right
+
+#禁止头文件重排序
+SortIncludes: Never
