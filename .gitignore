@@ -1,6 +1,10 @@
+# ignore clangd cache
+/.cache
+
 # ignore cmake cache
 /build
 /output
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
