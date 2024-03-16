@@ -14,6 +14,8 @@ add_executable(main src/main.cpp)
 set_target_properties(main PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/output")
 
+add_subdirectory(ds)
+
 file(GLOB LEETCODE "leetcode/*.cpp" "leetcode/*.c" "leetcode/*/*.cpp" "leetcode/*/*.c")
 foreach(SOURCE ${LEETCODE})
     get_filename_component(CODE_NAME ${SOURCE} NAME_WE)
