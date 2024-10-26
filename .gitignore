@@ -1,3 +1,5 @@
+# ignore clangd cache
+/.cache
 # ignore cmake cache
 /build
 /output
